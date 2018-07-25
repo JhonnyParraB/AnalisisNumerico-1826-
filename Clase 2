@@ -1,0 +1,29 @@
+// Example program
+#include <iostream>
+#include <string>
+
+int main()
+{
+  float n=7;
+  float x=2.6;
+  float xinicial=x;
+  float y;
+  float raiz7=2.64575;
+  int i=1;
+  do {
+      y=0.5*(x+n/x);
+      x=y;
+      i++;
+      std::cout<<x;
+      std::cout<<"\n";
+  } while (y-raiz7>=0.00001);
+  
+  
+  std::cout<<"Numero de iteraciones con x=";
+  std::cout<<xinicial;
+  std::cout<<" : ";  
+  std::cout<<i;
+  std::cout<<"\n";
+  std::cout<<y;
+  
+}
