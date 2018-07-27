@@ -103,7 +103,7 @@ He aquí el algoritmo escrito en lenguaje c++ para la trisección:
     }
         
 
-Para efectos del ejercicio, se uso como entrada el intervalo [10, 20] que cumple con la condición de continuidad y de $f(a)*f(b)<0$ y se establecio una precisión de $10e-8$. Los resultados se muestran en la siguiente tabla:
+Para efectos del ejercicio, se uso como entrada el intervalo [10, 20] que cumple con la condición de continuidad y de `f(a)*f(b)<0` y se establecio una precisión de `10e-8`. Los resultados se muestran en la siguiente tabla:
 
 |  #Iteración |c   |f(c)   |d   |f(d)   |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
