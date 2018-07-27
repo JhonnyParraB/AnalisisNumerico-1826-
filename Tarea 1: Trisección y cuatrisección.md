@@ -1,7 +1,7 @@
 
 # Descripción
 
-A partir de la comprensión del método cerrado de bisección que está basado en el "Teorema de valores intermedios", construir dos algoritmos uno que particione en tres, al que llamaremos "trisección" y otro que particione en cuatro al que llamaremos "cuatrisección" de tal forma que cumplan el mismo objetivo que el método de bisección.
+A partir de la comprensión del método cerrado de bisección que está basado en el "Teorema de valores intermedios", se deben construir dos algoritmos uno que particione en tres, al que llamaremos "trisección" y otro que particione en cuatro al que llamaremos "cuatrisección" de tal forma que cumplan el mismo objetivo que el método de bisección.
 
 La función que será utilizada para realizar la aproximación saldrá del siguiente ejercicio:
 
