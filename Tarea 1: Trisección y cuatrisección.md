@@ -18,7 +18,7 @@ Cuando se desarrolla el ejercicio propuesto resulta la siguiente función f(x) d
 
 `f(x)=(667.8/x)*(1-e^(-0.146843x))-40`
 
-Junto con su correspondiente gráfica:
+Junto con su correspondiente gráfica en los ejes coordenados x,y:
 
 ![save 2](https://user-images.githubusercontent.com/41595878/43305493-9d3cae82-913d-11e8-8f09-b7b47cf117a8.png)
 
@@ -27,7 +27,7 @@ Junto con su correspondiente gráfica:
 Lo primero que se debe tener claro es que, a diferencia del método de bisección, el de trisección debe dividir el intervalo en tres partes. Partiendo de que se tiene un intervalo [a, b] en el que la función f(c) arriba expresada es continua, se propuso colocar dos puntos en medio del intervalo a los que llamaremos c y d 
 Ahora, para realizar la trisección se le debe dar un valor a c y a d como los nuevos puntos medios, si lo analizamos quedarian así:
 
-`c=a+(b-a)*1/3`
+`c=a+(b-a)*1/3`,
 `d=a+(b-a)*2/3`
 
 
@@ -137,9 +137,9 @@ Luego la raiz sería 14.78020858 y se encontraría después de 25 iteraciones.
 
 # Cuatrisección
 La cuatrisección de hecho no sería muy diferente a la trisección, ahora tendriamos tres puntos intermedios en vez de dos, a los que llamaremos c, d y e que tienen las siguientes definiciones:
-`c=a+(a-b)*1/4`
-`d=a+(a-b)*2/4`
-`e=a+(a-b)*3/4`
+`c=a+(a-b)*1/4`,
+`d=a+(a-b)*2/4`,
+`e=a+(a-b)*3/4`,
 
 El algoritmo propuesto, escrito en c++ es el siguiente:
 
