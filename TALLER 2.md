@@ -152,3 +152,30 @@ int main()
 double f (double x){
     return 768*x-56*pow (x, 2)+pow (x,3)-1000;
 }'
+
+
+
+
+
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    int d;
+    cin>>n;
+    while (n>0){
+        d=n%2;
+        n=n/2; 
+        cout<<d<<endl;
+    }
+    
+    //T(n)=1+T(n/2)
+    //O(log2(n))
+    
+}
+
