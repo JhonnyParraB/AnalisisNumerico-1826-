@@ -4,7 +4,7 @@ Punto número 2:
 
 Con trisección:
 
-'/*Trisección
+/*Trisección
  *Hecho por Jhonny Alexander Parra 
  *2018
 */
@@ -68,8 +68,8 @@ int main()
 }
 
 double f (double x){
-    return 768*x-56*pow (x, 2)+pow (x,3)-1000;
-}'
+    return 768*x-112*pow (x, 2)+4*pow (x,3)-1000;
+}
 
 Con cuatrisección:
 
@@ -150,7 +150,7 @@ int main()
 }
 
 double f (double x){
-    return 768*x-56*pow (x, 2)+pow (x,3)-1000;
+    return 768*x-112*pow (x, 2)+4*pow (x,3)-1000;
 }'
 
 
