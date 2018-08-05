@@ -196,3 +196,5 @@ NewtonRaphson<-function(y, x, precision){
   }
   cat (x)
 }
+
+NewtonRaphson(D(expression(sqrt((2-2*cos(x))^2+(1-sin(x))^2)), "x"), 30, 0.01)
