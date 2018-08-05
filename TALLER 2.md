@@ -179,3 +179,20 @@ int main()
     
 }
 
+
+Punto Newton Raphson:
+
+
+
+evaluarFuncion<-function(f, x){
+  eval(f)
+}
+
+NewtonRaphson<-function(y, x, precision){
+  dy<-D(y,"x")
+  while(1){
+    x<-x-evaluarFuncion(y, x)/evaluarFuncion(dy, x)
+    if (evaluarFuncion(y, x)<=precision) break
+  }
+  cat (x)
+}
