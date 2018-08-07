@@ -20,7 +20,7 @@
 ![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D%5Cleft%2832-2x%5Cright%29%5Ccdot%20%5Cleft%2824-2x%5Cright%29%5Ccdot%20x)
 
 
-![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D4x%5E3-112x%5E2&plus;768x)          (Simplificando)
+![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D4x%5E3-112x%5E2&plus;768x%5C%3A%5C%3A%5C%3A%5Cleft%28Simplificando%5Cright%29)
 
 
 
