@@ -2,7 +2,7 @@
  ## Elaborado por: Laura Donado y Jhonny Parra
 
 
-#### -Punto número 2
+### -Punto número 2
 **Descripción del problema:** Se necesita un recipiente rectangular, sin tapa, de un litro de capacidad. Para construirlo se debe usar una lámina rectangular de 32cm de largo y 24 cm de ancho. El procedimiento será recortar un cuadrado idéntico en cada una de las cuatro esquinas y doblar los bordes de la lámina para formar el recipiente.
 
 **Objetivo**: Determinar la medida del lado del cuadrado que se debe recortar en cada esquina para que el recipiente tenga la capacidad requerida. Se debe hacer uso de dos métodos distintos para resolver el problema.
