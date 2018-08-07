@@ -32,7 +32,7 @@ Luego, para efectos de la solución del problema, igualamos a 1000 el volumen de
 ![ecuacion](http://latex.codecogs.com/gif.latex?4x%5E3-112x%5E2&plus;768x%3D1000)
 
 
-![ecuacion](http://latex.codecogs.com/gif.latex?f%5Cleft%28x%5Cright%29%3D4x%5E3-112x%B2&plus;768x-1000%3D0%5C%3A%5C%3A%5C%3A%5C%3A%5Cleft%28Se%5C%3Atiene%5C%3Ala%5C%3Afunci%F3n%5C%3Abuscada%5C%3Aigualada%5C%3Aa%5C%3A0%5Cright%29)
+![ecuacion](http://latex.codecogs.com/gif.latex?f%5Cleft%28x%5Cright%29%3D4x%5E3-112x%5E2&plus;768x-100%3D0%5C%3A%5Cleft%28Se%5C%3Atiene%5C%3Ala%5C%3Afuncion%5C%3Abuscada%5Cright%29)
 
 
 
