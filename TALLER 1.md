@@ -312,16 +312,16 @@ T(n)=1+T(n/2) donde el caso base es T(1)=1.
 Luego se tiene que:
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%28n/2%5Cright%29&plus;1)
-T(n)=T(n/2)+1
+
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%28%5Cfrac%7Bn%7D%7B2%5Ek%7D%5Cright%29&plus;k%5C%3A%5Cleft%28Donde%5C%3Ak%5C%3Aes%5C%3Ael%5C%3Anumero%5C%3Ade%5C%3Aiteraciones%5Cright%29)
-T(n)=T(n/2^k)+k (Donde k es el número de iteraciones)
+
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%28%5Cfrac%7Bn%7D%7B2%5E%7B%5Cleft%28%5Clog%20_2%5Cleft%28n%5Cright%29%5Cright%29%7D%7D%5Cright%29&plus;%5Clog%20%5C%3A_2%5Cleft%28n%5Cright%29%5C%3A)
-T(n)=T(n/2^(log2(n)))+log2(n) 
+
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%281%5Cright%29&plus;%5Clog%20_2%5Cleft%28n%5Cright%29)
-T(n)=T(1)+log2(n)
+
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3D1&plus;%5Clog%20_2%5Cleft%28n%5Cright%29%5C%3A%5Cleft%28Aplicando%5C%3Ael%5C%3Acaso%5C%3Abase%5C%3Aque%5C%3Adice%5C%3Aque%5C%3AT%5Cleft%281%5Cright%29%3D1%5Cright%29)
 
