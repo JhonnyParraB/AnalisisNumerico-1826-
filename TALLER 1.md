@@ -306,10 +306,10 @@ El numero de divisiones fue 7
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3D1&plus;T%5Cleft%28n/2%5Cright%29%5C%3Adonde%5C%3Ael%5C%3Acaso%5C%3Abase%5C%3Aes%5C%3AT%5Cleft%281%5Cright%29%3D1)
 
-T(n)=1+T(n/2) donde el caso base es T(1)=1.
 
 
 Luego se tiene que:
+
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%28n/2%5Cright%29&plus;1)
 
