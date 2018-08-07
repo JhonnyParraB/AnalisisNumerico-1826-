@@ -1,9 +1,29 @@
-## Taller 1- Parejas
+# Taller 1: Métodos númericos
+ ## Elaborado por: Laura Donado y Jhonny Parra
 
-Punto número 2:
 
-Con trisección:
+#### -Punto número 2
+**Descripción del problema:** Se necesita un recipiente rectangular, sin tapa, de un litro de capacidad. Para construirlo se debe usar una lámina rectangular de 32cm de largo y 24 cm de ancho. El procedimiento será recortar un cuadrado idéntico en cada una de las cuatro esquinas y doblar los bordes de la lámina para formar el recipiente.
 
+**Objetivo**: Determinar la medida del lado del cuadrado que se debe recortar en cada esquina para que el recipiente tenga la capacidad requerida. Se debe hacer uso de dos métodos distintos para resolver el problema.
+
+
+------------
+
+**Planteamiento del problema**: Se cuenta con métodos que encuentran raices de funciones para resolver el problema tales como la trisección o la cuatrisección, luego se debe proponer una función que cumpla que su raiz (x tal que f(x)=0) actue como la medida del lado del cuadrado que se debe recortar en cada esquina de la caja.
+
+Vcaja=(32-2x)*(24-2x)*x
+Vcaja=4x³-112x²+768x               (Simplificando)
+
+Luego, para efectos de la solución del problema, igualamos a 1000 el volumen de la caja.
+
+Vcaja=1000
+4x³-112x²+768x=1000
+f(x)=4x³-112x²+768x-1000=0 (Se tiene la función buscada)
+
+Para hallar la solución se uso el método de trisección y cuatrisección con una precisión de 10^-8:
+
+```cpp
 /*Trisección
  *Hecho por Jhonny Alexander Parra 
  *2018
@@ -17,6 +37,7 @@ Con trisección:
 using namespace std;
 
 double f (double x);
+double v (double x);
 int main()
 {
     double a, b, c, d;
@@ -63,18 +84,31 @@ int main()
         
     }
    
-    cout<<endl<<"La raiz es: "<<raiz;  
+    cout<<endl<<"La raiz es: "<<raiz<<endl;  
+    cout<<endl<<"El volumen seria: "<<v(raiz);
     return 0;
 }
 
 double f (double x){
     return 768*x-112*pow (x, 2)+4*pow (x,3)-1000;
 }
+double v (double x){
+    return (32-2*x)*(24-2*x)*x;
+}
+```
+Nota: La escogencia de los intervalos se hizo de acuerdo a los extremos de la función.
 
-Con cuatrisección:
+Entrada: Intervalo [1, 5].
+Resultado: 1.69627683  después de 21 iteraciones.
 
+Entrada: Intervalo [6, 10]
+Resultado: 8.09321954 después de 21 iteraciones.
 
-'/*Cuatrisección
+Entrada: Intervalo [16, 20]
+Resultado: 18.21050363 después de 23 iteraciones.
+
+```cpp
+/*Cuatrisección
  *Hecho por Jhonny Alexander Parra 
  *2018
 */
@@ -85,8 +119,9 @@ Con cuatrisección:
 #include <iomanip> 
 
 using namespace std;
-'
+
 double f (double x);
+double v (double x);
 int main()
 {
     double a, b, c, d, e;
@@ -145,19 +180,59 @@ int main()
         iteracion++;        
     }
     
-    cout<<endl<<"La raiz es: "<<raiz;    
+    cout<<endl<<"La raiz es: "<<raiz<<endl;
+    cout<<endl<<"El volumen seria: "<<v(raiz);
+    
     return 0;
 }
 
 double f (double x){
     return 768*x-112*pow (x, 2)+4*pow (x,3)-1000;
-}'
+}
+
+double v (double x){
+    return (32-2*x)*(24-2*x)*x;
+}
+```
+
+Entrada: Intervalo [1, 5].
+Resultado: 1.69627683  después de 18 iteraciones.
+
+Entrada: Intervalo [6, 10]
+Resultado: 8.09321954 después de 17 iteraciones.
+
+Entrada: Intervalo [16, 20]
+Resultado: 18.21050363 después de 18 iteraciones.
+
+Se comprobó el volumen con todos los resultados y siempre se obtuvo 1000.00000000 cm³ con una incertidumbre de más o menos 10^-8.
 
 
+------------
+
+Respuesta a las preguntas propuestas:
+1. ¿Cual es la etapa del proceso de resolución de un problema númerico que requiere más atención?
+Ciertamente los métodos numéricos ya han sido pensados e implementados, lo único que requiere atención es su inclusión en la resolución de los problemas, es decir, como a partir de un problema se encuentra la forma de usar un método númerico para hallar la solución.
+
+2. ¿Que conocimientos son necesarios para formular un modelo matemático?
+Conocimientos básicos de ecuaciones y de geometría como el volumen de una caja rectangular.
+3. En el ejemplo de la caja ¿Cual sería la desventaja de intentar obtener experimentalmente la solución mediante prueba y error en lugar de analizar el modelo matemático?
+Podría tomar mucho tiempo, más aún si se tiene en cuenta que hay tres soluciones disponibles. Por otra parte conseguir una presición adecuada en la solución a través de prueba y error sería tedioso y tardio.
+
+4. ¿Qué es más critico: el error de truncamiento o el error de redondeo?
+
+5. ¿Cuál es la ventaja de instrumentar computacionalmente un método numérico?
+Es mucho más eficiente que la computadora realice las operaciones de un método numérico, además se reducen significativamente los errores humanos en el proceso.
+
+6. ¿Por qué es importante validar los resultados obtenidos?
+	Porque en muchas ocasiones a pesar de que el método de análisis numérico utilizado converge, la solución puede que no aplique para resolver el problema.
 
 
+####Punto número 7
+La eficiencia de un algoritmo está denotada por T(n).
+(a)
+**Descripción:** Se debe ejecutar el siguiente algoritmo (implementado en c++) con la entrada n=73.
 
-// Example program
+```cpp
 #include <iostream>
 #include <string>
 
@@ -167,29 +242,62 @@ int main()
 {
     int n;
     int d;
+    cout<<"Ingrese el n: ";
     cin>>n;
+    int divisiones=0;
     while (n>0){
         d=n%2;
         n=n/2; 
+        divisiones++;
         cout<<d<<endl;
     }
-    
-    //T(n)=1+T(n/2)
-    //O(log2(n))
-    
+    cout<<"El numero de divisiones fue "<<divisiones;
 }
 
+```
+Entrada= n=73.
+Salida:
+1
+0
+0
+1
+0
+0
+1
+El numero de divisiones fue 7
 
-Punto Newton Raphson:
+------------
 
 
+(b)
+**Descripción:** Suponga que T(n) representa la cantidad de operaciones aritmeticas de división que se realizan para resolver el problema de tamaño n. Encuentre T(n) y exprésela con la notación O() para obtener T(n) observe el hecho de que en cada ciclo el valor de n se reduce aproximadamente a la mitad.
+
+**Solución:** 
+T(n)=1+T(n/2) donde el caso base es T(1)=1.
+Luego se tiene que;
+T(n)=T(n/2)+1
+=T(n/2^k)+k (Donde k es el número de iteraciones)
+=T(n/2^(log2(n)))+log2(n) (El número de iteraciones es log2(n))
+=T(1)+log2(n)
+=1+log2(n) (Aplicando el caso base que dice que T(1)=1)
+
+De esta manera, T(n) es de orden O(log n).
+
+####Punto número 7
+
+**Descripción del problema**: Utilice el método de Newton para resolver el problema, muestre gráficamente cómo se comporta la convergencia a la solución. Una partícula se mueve en el espacio con el vector de posición R(t)=(2cos(t), sen(t), 0). Se requiere conocer el tiempo en el que el objeto se encuentra más cerca del punto P(2,1,0). Utilice el método de Newton con cuatro decimales de precisión.
 
 
-evaluarFuncion<-function(f, x){
-  eval(f)
-}
+------------
 
+**Planteamiento del problema**: El método numérico de Newton sirve para hallar raices. El problema requiere encontrar la minima distancia que hay entre el punto P y un punto determinado de R(t).
+Para ello se plantea la función d(t) que representa la distancia entre el punto P y cualquier punto de R(t):
 
+d(t)=sqrt((2-2*cos(x))^2+(1-sin(x))^2)
+
+Para encontrar el mínimo debemos igualar d'(t)=0, es aquí donde el método de Newton permite resolver el ejercicio. A continuación la implementación del método de Newton en lenguaje R:
+
+```r
 NewtonRaphson<-function(y, x, precision){
   dy<-D(y,"x")
   iteraciones<-0
@@ -201,6 +309,82 @@ NewtonRaphson<-function(y, x, precision){
   }
   cat ("La raiz es ",x," con un total de ",iteraciones, " iteraciones.")
 }
+```
+La selección del x0 se hizo con ayuda de la gráfica de la función d'(t).
+
+Entrada: NewtonRaphson(D(expression(sqrt((2-2*cos(x))^2+(1-sin(x))^2)), "x"), 0.5, 0.0001)
+Se ingresó la d'(t) como la función a la que se le quiere encontrar la raiz, x0=0.5 como el punto aproximado a la raiz y se estableció una precisión de 0.0001.
+
+Salidas (Resultado):
+
+|  #Iteración|t   |  d'(t) |
+| ------------ | ------------ | ------------ |
+| 1 | 0.6000476 | 0.063255 | 
+| 2 | 0.5873245 | 0.0005119039 | 
+| 3 | 0.5872198 | 4.076899e-08 |
+
+La raiz es 0.5872 y se obtuvo después de tres iteraciones. Es un mínimo local.
+
+Es importante tener en cuenta que una mala selección del x0 puede llevar a la divergencia del método o a obtener un t que corresponda a un máximo y no a un mínimo de la función d(t). En el ejercicio se hizo uso del criterio de la segunda derivada para asegurar que el t obtenido correspondiera con un mínimo local en d(t).
+
+Luego como la curva parametrica no tiene un tiempo delimitado, lo que nos permite suponer que la particula se mueve infinitamente, y la función seno y coseno tienen un período de 2pi, la solución quedaría expresada de la siguiente manera:
+
+La particula está más cerca al punto P(2, 1, 0) en el tiempo t=0.5872+(2pi)n donde n es un número entero no negativo según la connotación de t como tiempo del problema.
+
+La convergencia de la solución se puede observar en la siguiente gráfica:
+
+
+####Punto número 13
+**Descripción**: Encuentre una fórmula iterativa de convergencia cuadrática y defina un intervalo de convergencia apropiado para calcular la raiz real n-ésima de un número real. El algoritmo solamente debe incluir operaciones airtméticas elementales.
+
+**Solución**: El siguiente es un método basado en el método de Newton que permite obtener la raiz n-esima de un número a. La solución de la siguiente ecuación igualada a 0 permite determinar la raiz n-esima del número a:
+
+f(x)=x^n-a 
+
+Al igual que en el método de Newton es necesario dar un x0.
+Aquí la implementación de la solución en lenguaje R:
+
+```r
+
+
+evaluarFuncion<-function(f, x){
+  return(eval(f))
+}
+
+
+CalcularRaiz<-function(n, a, x, precision){
+  y=parse(text=paste("x^",n,"-",a))
+  dy<-D(y,"x")
+
+  iteraciones<-1
+  
+  
+  while(TRUE){
+    x<-x-(evaluarFuncion(y, x)/evaluarFuncion(dy, x))
+    
+    cat ("|", iteraciones, "|",x, "|", evaluarFuncion(y,x),"|","\n")
+    if (abs(evaluarFuncion(y, x))<=precision)   break
+    iteraciones<-iteraciones+1
+  }
+  
+    cat ("La raiz n-esima (n=",n,") de ",a," es ",x," con un total de ",iteraciones, " iteraciones.", "\n")
+
+}
+```
+
+Entrada: CalcularRaiz(n = 4,a = 256,x = 5,precision = 0.0001)
+Salidas:
+
+|  #Iteración|a^(1/n)  |  f(x) |
+| ------------ | ------------ | ------------ |
+| 1 | 4.262 | 73.95429 | 
+| 2 | 4.023184 | 5.986956 | 
+| 3 | 4.0002 | 0.05111035 | 
+| 4 | 4 | 3.825673e-06 | 
+
+La raiz n-esima (n= 4 ) de  256  es  4  con un total de  4  iteraciones. 
+
+Aunque el método no diverge, es importante que el número x0 sea un número positivo siempre que se quiera evaluar una raiz n-esima donde n es un número par.
 
 
 
@@ -208,4 +392,5 @@ NewtonRaphson<-function(y, x, precision){
 
 
 
-NewtonRaphson(D(expression(sqrt((2-2*cos(x))^2+(1-sin(x))^2)), "x"), 30, 0.01)
+
+
