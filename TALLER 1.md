@@ -323,8 +323,7 @@ T(n)=T(n/2^(log2(n)))+log2(n)
 ![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%281%5Cright%29&plus;%5Clog%20_2%5Cleft%28n%5Cright%29)
 T(n)=T(1)+log2(n)
 
-![ecuacion](T\left(n\right)=1+\log _2\left(n\right)\:\left(Aplicando\:el\:caso\:base\:que\:dice\:que\:T\left(1\right)=1\right))
-T(n)=1+log2(n) (Aplicando el caso base que dice que T(1)=1)
+![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3D1&plus;%5Clog%20_2%5Cleft%28n%5Cright%29%5C%3A%5Cleft%28Aplicando%5C%3Ael%5C%3Acaso%5C%3Abase%5C%3Aque%5C%3Adice%5C%3Aque%5C%3AT%5Cleft%281%5Cright%29%3D1%5Cright%29)
 
 De esta manera, T(n) es de orden O(log n).
 
