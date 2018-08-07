@@ -18,6 +18,8 @@
 
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D%5Cleft%2832-2x%5Cright%29%5Ccdot%20%5Cleft%2824-2x%5Cright%29%5Ccdot%20x)
+
+
 ![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D4x%5E3-112x%5E2&plus;768x)          (Simplificando)
 
 
@@ -25,8 +27,14 @@
 Luego, para efectos de la solución del problema, igualamos a 1000 el volumen de la caja.
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D1000)
+
+
 ![ecuacion](http://latex.codecogs.com/gif.latex?4x%5E3-112x%5E2&plus;768x%3D1000)
+
+
 ![ecuacion](http://latex.codecogs.com/gif.latex?f%5Cleft%28x%5Cright%29%3D4x%5E3-112x%5E2&plus;768x-1000%3D0%5C%3A) (Se tiene la función buscada)
+
+
 
 Para hallar la solución se uso el método de trisección y cuatrisección con una precisión de 10^-8:
 
