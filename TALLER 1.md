@@ -244,7 +244,11 @@ Es mucho más eficiente que la computadora realice las operaciones de un método
 
 ### -Punto número 6
 La eficiencia de un algoritmo está denotada por T(n).
+
+
 (a)
+
+
 **Descripción:** Se debe ejecutar el siguiente algoritmo (implementado en c++) con la entrada n=73.
 
 ```cpp
@@ -294,16 +298,33 @@ El numero de divisiones fue 7
 
 
 (b)
+
+
 **Descripción:** Suponga que T(n) representa la cantidad de operaciones aritmeticas de división que se realizan para resolver el problema de tamaño n. Encuentre T(n) y exprésela con la notación O() para obtener T(n) observe el hecho de que en cada ciclo el valor de n se reduce aproximadamente a la mitad.
 
 **Solución:** 
+
+![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3D1&plus;T%5Cleft%28n/2%5Cright%29%5C%3Adonde%5C%3Ael%5C%3Acaso%5C%3Abase%5C%3Aes%5C%3AT%5Cleft%281%5Cright%29%3D1)
+
 T(n)=1+T(n/2) donde el caso base es T(1)=1.
-Luego se tiene que;
+
+
+Luego se tiene que:
+
+![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%28n/2%5Cright%29&plus;1)
 T(n)=T(n/2)+1
-=T(n/2^k)+k (Donde k es el número de iteraciones)
-=T(n/2^(log2(n)))+log2(n) (El número de iteraciones es log2(n))
-=T(1)+log2(n)
-=1+log2(n) (Aplicando el caso base que dice que T(1)=1)
+
+![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%28%5Cfrac%7Bn%7D%7B2%5Ek%7D%5Cright%29&plus;k%5C%3A%5Cleft%28Donde%5C%3Ak%5C%3Aes%5C%3Ael%5C%3Anumero%5C%3Ade%5C%3Aiteraciones%5Cright%29)
+T(n)=T(n/2^k)+k (Donde k es el número de iteraciones)
+
+![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%28%5Cfrac%7Bn%7D%7B2%5E%7B%5Cleft%28%5Clog%20_2%5Cleft%28n%5Cright%29%5Cright%29%7D%7D%5Cright%29&plus;%5Clog%20%5C%3A_2%5Cleft%28n%5Cright%29%5C%3A)
+T(n)=T(n/2^(log2(n)))+log2(n) 
+
+![ecuacion](http://latex.codecogs.com/gif.latex?T%5Cleft%28n%5Cright%29%3DT%5Cleft%281%5Cright%29&plus;%5Clog%20_2%5Cleft%28n%5Cright%29)
+T(n)=T(1)+log2(n)
+
+![ecuacion](T\left(n\right)=1+\log _2\left(n\right)\:\left(Aplicando\:el\:caso\:base\:que\:dice\:que\:T\left(1\right)=1\right))
+T(n)=1+log2(n) (Aplicando el caso base que dice que T(1)=1)
 
 De esta manera, T(n) es de orden O(log n).
 
