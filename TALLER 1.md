@@ -14,7 +14,7 @@
 
 ------------
 
-**Planteamiento del problema**: Se cuenta con métodos que encuentran raices de funciones para resolver el problema tales como la trisección o la cuatrisección luego, se debe proponer una función que cumpla que su raiz (x tal que f(x)=0) actue como la medida del lado del cuadrado que se debe recortar en cada esquina de la caja, a continuación se plante la función de volumen de la caja de acuerdo al cuadrado x que será recortado:
+**Planteamiento del problema**: Se cuenta con métodos que encuentran raices de funciones para resolver el problema tales como la trisección o la cuatrisección luego, se debe proponer una función que cumpla que su raiz (x tal que f(x)=0) actue como la medida del lado del cuadrado que se debe recortar en cada esquina de la caja, a continuación se plantea la función de volumen de la caja de acuerdo al cuadrado x que será recortado:
 
 
 ![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D%5Cleft%2832-2x%5Cright%29%5Ccdot%20%5Cleft%2824-2x%5Cright%29%5Ccdot%20x)
