@@ -1,7 +1,7 @@
 # Taller 1: Métodos númericos
  ## Elaborado por: Laura Donado y Jhonny Parra
 
-\frac{x}{5+3}
+![equation] (<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{x}{5&plus;3}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{x}{5&plus;3}" title="\frac{x}{5+3}" /></a>)
 
 ### -Punto número 2
 **Descripción del problema:** Se necesita un recipiente rectangular, sin tapa, de un litro de capacidad. Para construirlo se debe usar una lámina rectangular de 32cm de largo y 24 cm de ancho. El procedimiento será recortar un cuadrado idéntico en cada una de las cuatro esquinas y doblar los bordes de la lámina para formar el recipiente.
