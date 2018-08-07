@@ -5,6 +5,8 @@
 
 ![equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bx%7D%7B5&plus;3%7D)
 
+<a href="http://www.codecogs.com/eqnedit.php?latex=\sum&space;\sqrt{x}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\sum&space;\sqrt{x}" title="\sum \sqrt{x}" /></a>
+
 ### -Punto número 2
 **Descripción del problema:** Se necesita un recipiente rectangular, sin tapa, de un litro de capacidad. Para construirlo se debe usar una lámina rectangular de 32cm de largo y 24 cm de ancho. El procedimiento será recortar un cuadrado idéntico en cada una de las cuatro esquinas y doblar los bordes de la lámina para formar el recipiente.
 
