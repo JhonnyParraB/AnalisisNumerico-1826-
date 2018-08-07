@@ -420,7 +420,7 @@ CalcularRaiz<-function(n, a, x, precision){
 Entrada: CalcularRaiz(n = 4,a = 256,x = 5,precision = 0.0001)
 Salidas:
 
-|  #Iteración|![ecuacion](http://latex.codecogs.com/gif.latex?%5Csqrt%5Bn%5D%7Ba%7D) |  f(x) |
+|  #Iteración|![ecuacion](http://latex.codecogs.com/gif.latex?%5Csqrt%5Bn%5D%7Ba%7D) |  ![ecuacion](http://latex.codecogs.com/gif.latex?f%5Cleft%28x%5Cright%29)|
 | ------------ | ------------ | ------------ |
 | 1 | 4.262 | 73.95429 | 
 | 2 | 4.023184 | 5.986956 | 
