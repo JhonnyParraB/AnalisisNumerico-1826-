@@ -271,14 +271,32 @@ int main()
 
 ```
 Entrada= n=73.
+
+
 Salida:
+
+
 1
+
+
 0
+
+
 0
+
+
 1
+
+
 0
+
+
 0
+
+
 1
+
+
 El numero de divisiones fue 7
 
 ------------
