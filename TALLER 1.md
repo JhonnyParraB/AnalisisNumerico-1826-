@@ -227,7 +227,7 @@ Es mucho más eficiente que la computadora realice las operaciones de un método
 	Porque en muchas ocasiones a pesar de que el método de análisis numérico utilizado converge, la solución puede que no aplique para resolver el problema.
 
 
-####Punto número 7
+### -Punto número 7
 La eficiencia de un algoritmo está denotada por T(n).
 (a)
 **Descripción:** Se debe ejecutar el siguiente algoritmo (implementado en c++) con la entrada n=73.
@@ -334,7 +334,7 @@ La particula está más cerca al punto P(2, 1, 0) en el tiempo t=0.5872+(2pi)n d
 La convergencia de la solución se puede observar en la siguiente gráfica:
 
 
-####Punto número 13
+### -Punto número 13
 **Descripción**: Encuentre una fórmula iterativa de convergencia cuadrática y defina un intervalo de convergencia apropiado para calcular la raiz real n-ésima de un número real. El algoritmo solamente debe incluir operaciones airtméticas elementales.
 
 **Solución**: El siguiente es un método basado en el método de Newton que permite obtener la raiz n-esima de un número a. La solución de la siguiente ecuación igualada a 0 permite determinar la raiz n-esima del número a:
