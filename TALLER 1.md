@@ -227,7 +227,7 @@ Es mucho más eficiente que la computadora realice las operaciones de un método
 	Porque en muchas ocasiones a pesar de que el método de análisis numérico utilizado converge, la solución puede que no aplique para resolver el problema.
 
 
-### -Punto número 7
+### -Punto número 6
 La eficiencia de un algoritmo está denotada por T(n).
 (a)
 **Descripción:** Se debe ejecutar el siguiente algoritmo (implementado en c++) con la entrada n=73.
@@ -283,7 +283,7 @@ T(n)=T(n/2)+1
 
 De esta manera, T(n) es de orden O(log n).
 
-####Punto número 7
+### -Punto número 7
 
 **Descripción del problema**: Utilice el método de Newton para resolver el problema, muestre gráficamente cómo se comporta la convergencia a la solución. Una partícula se mueve en el espacio con el vector de posición R(t)=(2cos(t), sen(t), 0). Se requiere conocer el tiempo en el que el objeto se encuentra más cerca del punto P(2,1,0). Utilice el método de Newton con cuatro decimales de precisión.
 
