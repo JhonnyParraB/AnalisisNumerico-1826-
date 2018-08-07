@@ -32,7 +32,7 @@ Luego, para efectos de la solución del problema, igualamos a 1000 el volumen de
 ![ecuacion](http://latex.codecogs.com/gif.latex?4x%5E3-112x%5E2&plus;768x%3D1000)
 
 
-![ecuacion](http://latex.codecogs.com/gif.latex?f%5Cleft%28x%5Cright%29%3D4x%5E3-112x%5E2&plus;768x-100%3D0%5C%3A%5Cleft%28Se%5C%3Atiene%5C%3Ala%5C%3Afuncion%5C%3Abuscada%5Cright%29)
+![ecuacion](http://latex.codecogs.com/gif.latex?f%5Cleft%28x%5Cright%29%3D4x%5E3-112x%5E2&plus;768x-100%3D0%5C%3A%5Cleft%28Se%5C%3Atiene%5C%3Ala%5C%3Afuncion%5C%3Abuscada%5C%3Aigualada%5C%3Aa%5C%3Acero%5Cright%29)
 
 
 
@@ -383,7 +383,8 @@ La convergencia de la solución se puede observar en la siguiente gráfica:
 
 **Solución**: El siguiente es un método basado en el método de Newton que permite obtener la raiz n-esima de un número a. La solución de la siguiente ecuación igualada a 0 permite determinar la raiz n-esima del número a:
 
-f(x)=x^n-a 
+
+![ecuacion](http://latex.codecogs.com/gif.latex?f%5Cleft%28x%5Cright%29%3Dx%5En-a%5C%3A)
 
 Al igual que en el método de Newton es necesario dar un x0.
 Aquí la implementación de la solución en lenguaje R:
