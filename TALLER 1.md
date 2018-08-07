@@ -3,9 +3,8 @@
 
 
 
-![equation](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bx%7D%7B5&plus;3%7D)
 
-<a href="http://www.codecogs.com/eqnedit.php?latex=\sum&space;\sqrt{x}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\sum&space;\sqrt{x}" title="\sum \sqrt{x}" /></a>
+
 
 ### -Punto número 2
 **Descripción del problema:** Se necesita un recipiente rectangular, sin tapa, de un litro de capacidad. Para construirlo se debe usar una lámina rectangular de 32cm de largo y 24 cm de ancho. El procedimiento será recortar un cuadrado idéntico en cada una de las cuatro esquinas y doblar los bordes de la lámina para formar el recipiente.
@@ -17,14 +16,17 @@
 
 **Planteamiento del problema**: Se cuenta con métodos que encuentran raices de funciones para resolver el problema tales como la trisección o la cuatrisección, luego se debe proponer una función que cumpla que su raiz (x tal que f(x)=0) actue como la medida del lado del cuadrado que se debe recortar en cada esquina de la caja.
 
-Vcaja=(32-2x)*(24-2x)*x
-Vcaja=4x³-112x²+768x               (Simplificando)
+
+![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D%5Cleft%2832-2x%5Cright%29%5Ccdot%20%5Cleft%2824-2x%5Cright%29%5Ccdot%20x)
+![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D4x%5E3-112x%5E2&plus;768x)          (Simplificando)
+
+
 
 Luego, para efectos de la solución del problema, igualamos a 1000 el volumen de la caja.
 
-Vcaja=1000
-4x³-112x²+768x=1000
-f(x)=4x³-112x²+768x-1000=0 (Se tiene la función buscada)
+![ecuacion](http://latex.codecogs.com/gif.latex?V_%7Bcaja%7D%3D1000)
+![ecuacion](http://latex.codecogs.com/gif.latex?4x%5E3-112x%5E2&plus;768x%3D1000)
+![ecuacion](http://latex.codecogs.com/gif.latex?f%5Cleft%28x%5Cright%29%3D4x%5E3-112x%5E2&plus;768x-1000%3D0%5C%3A) (Se tiene la función buscada)
 
 Para hallar la solución se uso el método de trisección y cuatrisección con una precisión de 10^-8:
 
