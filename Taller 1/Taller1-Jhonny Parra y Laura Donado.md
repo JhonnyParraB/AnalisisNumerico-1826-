@@ -393,7 +393,7 @@ int main()
 {
     int n;
     int d;
-    cout<<"Ingrese el n: ";https://latex.codecogs.com/gif.latex?d\left(t\right)=\sqrt{\left(2-2cos\left(x\right)^2\right)&plus;\left(1-sin\left(x\right)\right)^2}
+    cout<<"Ingrese el n: ";
     cin>>n;
     int divisiones=0;
     while (n>0){
