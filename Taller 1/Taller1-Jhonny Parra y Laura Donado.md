@@ -316,7 +316,7 @@ Respuesta a las preguntas propuestas:
 1. ¿Cual es la etapa del proceso de resolución de un problema númerico que requiere más atención?
 
 
-Ciertamente los métodos numéricos ya han sido pensados e implementados, lo único que requiere atención es su inclusión en la resolución de los problemas, es decir, como a partir de un problema se encuentra la forma de usar un método númerico para hallar la solución.
+Ciertamente los métodos numéricos ya han sido pensados e implementados, lo único que requiere atención es su inclusión en la resolución de los problemas, es decir, como a partir de un problema se encuentra la forma de usar un método numérico para hallar la solución.
 
 2. ¿Que conocimientos son necesarios para formular un modelo matemático?
 
@@ -330,7 +330,7 @@ Podría tomar mucho tiempo, más aún si se tiene en cuenta que hay tres solucio
 
 4. ¿Qué es más critico: el error de truncamiento o el error de redondeo?
 
-Cuando se redondea se trata de tener en cuenta una mayor cantidad de decimales aún sin colocarlos todos, por lo que cuando se trunca un número el error es mayor,de hecho el error de truncamiento puede ser hasta el doble del error máximo que se puede llegar a obtener redondeando.
+Cuando se redondea se trata de tener en cuenta una mayor cantidad de decimales aún sin colocarlos todos, por lo que cuando se trunca un número el error es mayor, de hecho el error de truncamiento puede ser hasta el doble del error máximo que se puede llegar a obtener redondeando.
 
 5. ¿Cuál es la ventaja de instrumentar computacionalmente un método numérico?
 
