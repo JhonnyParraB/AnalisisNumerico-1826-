@@ -700,3 +700,6 @@ Con lo cual se obtuvo:
 
 ## Bibliografía
 [Método de Muller y ejercicios](https://prezi.com/ihj_vsqouxcb/metodo-de-muller-y-ejercicios/)
+
+
+R.L. Burden, J.D. Faires. Análisis numérico. Séptima Edición. Editorial Thomson. 2002.
