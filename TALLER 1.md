@@ -377,6 +377,10 @@ La particula está más cerca al punto P(2, 1, 0) en el tiempo t=0.5872+(2pi)n d
 
 La convergencia de la solución se puede observar en la siguiente gráfica:
 
+![convervengcia.p7](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Taller%201/convergencia-p7.png)
+
+De rojo está la función d'(t), las demás son las rectas tangentes generadas por el método de Newton.
+
 
 ### -Punto número 13
 **Descripción**: Encuentre una fórmula iterativa de convergencia cuadrática y defina un intervalo de convergencia apropiado para calcular la raiz real n-ésima de un número real. El algoritmo solamente debe incluir operaciones airtméticas elementales.
