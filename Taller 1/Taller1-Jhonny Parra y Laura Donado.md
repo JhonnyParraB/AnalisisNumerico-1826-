@@ -469,7 +469,7 @@ De esta manera, T(n) es de orden O(log n).
 **Planteamiento del problema**: El método numérico de Newton sirve para hallar raices. El problema requiere encontrar la minima distancia que hay entre el punto P y un punto determinado de R(t).
 Para ello se plantea la función d(t) que representa la distancia entre el punto P y cualquier punto de R(t):
 
-![ecuacion](https://latex.codecogs.com/gif.latex?d%5Cleft%28t%5Cright%29%3D%5Csqrt%7B%5Cleft%282-2cos%5Cleft%28x%5Cright%29%5Cright%29%5E2&plus;%5Cleft%281-sin%5Cleft%28x%5Cright%29%5Cright%29%5E2%7D)
+![ecuacion](https://latex.codecogs.com/gif.latex?d%5Cleft%28t%5Cright%29%3D%5Csqrt%7B%5Cleft%282-2cos%5Cleft%28t%5Cright%29%5Cright%29%5E2&plus;%5Cleft%281-sin%5Cleft%28t%5Cright%29%5Cright%29%5E2%7D)
 
 Para encontrar el mínimo debemos igualar d'(t)=0, es aquí donde el método de Newton permite resolver el ejercicio. A continuación la implementación del método de Newton en lenguaje R:
 
