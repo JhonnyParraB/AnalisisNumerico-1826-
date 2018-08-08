@@ -379,7 +379,10 @@ La convergencia de la solución se puede observar en la siguiente gráfica:
 
 ![convervengcia.p7](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Taller%201/convergencia-p7.png)
 
-De rojo está la función d'(t), las demás son las rectas tangentes generadas por el método de Newton (son tres, sin embargo no es posible verlas bien debido a que están demasiado cerca).
+De rojo está la función d'(t), las demás son las rectas tangentes generadas por el método de Newton. 
+En la siguiente gráfica se pueden apreciar mejor las rectas tangentes y su cercania con la raiz de d'(t):
+
+![convervengciacerca.p7](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Taller%201/convergenciacerca-p7.png)
 
 
 ### -Punto número 13
