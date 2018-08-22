@@ -42,7 +42,7 @@ Usando el algortimo podemos obtener una tabla como la siguiente donde n es el ta
 ![imagen](https://latex.codecogs.com/gif.latex?%5Cbg_white%20f%5Cleft%28n%5Cright%29): Eficiencia del algoritmo, medida como el número mínimo de operaciones requeridas.
 
 
-![imagen](https://latex.codecogs.com/gif.latex?%5Cbg_white%20f%5Cleft%28n%5Cright%29%3Dn%5E2) : Dado que se tiene que sumar cada elemento de la matriz An y en una matriz cuadrada el número de elementos es ![imagen](https://latex.codecogs.com/gif.latex?%5Cbg_white%20n%5E2), hay un total de https://latex.codecogs.com/gif.latex?%5Cbg_white%20n%5E2 operaciones minimas requeridas.
+![imagen](https://latex.codecogs.com/gif.latex?%5Cbg_white%20f%5Cleft%28n%5Cright%29%3Dn%5E2) : Dado que se tiene que sumar cada elemento de la matriz An y en una matriz cuadrada el número de elementos es ![imagen](https://latex.codecogs.com/gif.latex?%5Cbg_white%20n%5E2), hay un total de ![imagen](https://latex.codecogs.com/gif.latex?%5Cbg_white%20n%5E2) operaciones minimas requeridas.
 
 De esta manera la complejidad del algoritmo es de caracter ![imagen](https://latex.codecogs.com/gif.latex?%5Cbg_white%20O%5Cleft%28n%5E2%5Cright%29)
 
