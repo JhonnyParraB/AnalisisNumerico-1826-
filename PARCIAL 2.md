@@ -4,7 +4,7 @@
 
 #Punto 1
 
-b) Diseñe, implemente en R i Python un algoritmo que le permita sumar los lementos de una matriz cuadrada An. Imprima varias pruebas, para diferentes valores de n y exprese f(n) en notación O()
+b) Diseñe, implemente en R o Python un algoritmo que le permita sumar los lementos de una matriz cuadrada An. Imprima varias pruebas, para diferentes valores de n y exprese f(n) en notación O()
 
 
 ```r
