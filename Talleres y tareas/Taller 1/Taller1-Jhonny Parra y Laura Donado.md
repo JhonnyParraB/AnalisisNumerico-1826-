@@ -509,12 +509,12 @@ La particula está más cerca al punto P(2, 1, 0) en el tiempo t=0.5872+(2pi)n d
 
 La convergencia de la solución se puede observar en la siguiente gráfica:
 
-![convervengcia.p7](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Taller%201/convergencia-p7.png)
+![convervengcia.p7](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Taller%201/convergencia-p7.png)
 
 De rojo está la función d'(t), las demás son las rectas tangentes generadas por el método de Newton. 
 En la siguiente gráfica se pueden apreciar mejor las rectas tangentes y su cercania con la raiz de d'(t):
 
-![convervengciacerca.p7](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Taller%201/convergenciacerca-p7.png)
+![convervengciacerca.p7](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Taller%201/convergenciacerca-p7.png)
 
 ### Punto 11
 **Descripción del problema:** Método de Muller.  
