@@ -1,8 +1,8 @@
-###Elaborado por: Jhonny Alexander Parra Barrera
+#  Elaborado por: Jhonny Alexander Parra Barrera
 
-##Parcial 2
+##  Parcial 2
 
-#Punto 1
+### Punto 1
 
 b) Diseñe, implemente en R o Python un algoritmo que le permita sumar los lementos de una matriz cuadrada An. Imprima varias pruebas, para diferentes valores de n y exprese f(n) en notación O()
 
@@ -50,7 +50,7 @@ De esta manera la complejidad del algoritmo es de caracter ![imagen](https://lat
 
 
 
-#Punto 3
+### Punto 3
 
 h) Como el método permite unicamente minimizar funciones hay que convertir el problema de maximizacion en uno de minimización:
 Para esto se debe multiplicar Z por -1 y reemplazar las variables por el complemento es decir, Xi por (1-Xi)
