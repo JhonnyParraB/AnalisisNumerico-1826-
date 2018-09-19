@@ -2,7 +2,7 @@
 ## Realizado por: Laura Donado y Jhonny Parra
 
 Usando el método de interpolación Lagrange baricéntrico se logró gráficar la silueta de un pato en pleno vuelo, que se puede observar a continuación.  
-![Pato](https://github.com/donadol/analisis_numerico_1826/blob/master/Interpolacion/pato1.png)  
+![Pato](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Taller%20Pato-Interpolacion%20Baricentrica/pato1.png)  
 Los puntos fueron tomaron de [aquí](http://blog.espol.edu.ec/matg1013/pato-en-pleno-vuelo/).  
 Lo anterior se realizó con el siguiente código en R, donde se hizo uso de la paquete pracma para la función barylag.
 ```r
@@ -74,7 +74,7 @@ DibujarLinea (38, 40)
 DibujarLinea (41, 42)
 ```  
 Se utilizaron en total 37 puntos para las interpolaciones, como resultado se obtuvo la siguiente gráfica:  
-![Salida del código](https://github.com/donadol/analisis_numerico_1826/blob/master/Interpolacion/pato.png) 
+![Salida del código](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Taller%20Pato-Interpolacion%20Baricentrica/pato.png) 
   
 ## Bibliografía
 - [Pato en pleno vuelo](http://blog.espol.edu.ec/matg1013/pato-en-pleno-vuelo/)  
