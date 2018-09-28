@@ -102,7 +102,7 @@ graficarNormalEstandar <-function(){
 
 A continuación, las salidas obtenidas con el intervalo [0, 1] usando cinco particiones:
 
-Con left (0, 1, 5), sumas de Riemann por la izquierda:
+#### Con left (0, 1, 5), sumas de Riemann por la izquierda:
 
 
 | x(i-1)  | x(i)     | f(x(i-1))  | Área|
@@ -116,7 +116,7 @@ El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.359
 
 ![left](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/left.png)
 
-Con right (0, 1, 5), sumas de Riemann por la derecha:
+#### Con right (0, 1, 5), sumas de Riemann por la derecha:
 
 |x(i-1)  | x(i)     | f(x(i))  | Área|
 | ------------ | ------------ | ------------ | ------------ |
@@ -129,7 +129,7 @@ El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.320
 
 ![right](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/right.png)
 
-Con midpoint (0, 1, 5), sumas de Riemann por el centro:
+#### Con midpoint (0, 1, 5), sumas de Riemann por el centro:
 
 | x(i-1)  | x(i)     | f((x(i)+x(i-1))/2)  | Área |
 | ------------ | ------------ | ------------ | ------------ |
