@@ -1,11 +1,12 @@
-##Tarea de métodos númericos para integración: Sumas de Riemann en la distribución normal estándar
+# Tarea de métodos númericos para integración: Sumas de Riemann en la distribución normal estándar
+## Elaborado por: Laura Donado y Jhonny Parra
 
 
-# Descripción del problema:
+## Descripción del problema:
 
 Encontrar una aproximación del área bajo la curva de la distribución normal estándar en un intervalo dado usando sumas de Riemann con cuatro cifras de presición.
 
-# Las sumas de Riemann:
+## Las sumas de Riemann:
 
 En matemáticas, la Suma de Riemann es un tipo de aproximación del valor de una integral mediante una suma finita.
 Sea f(x) una función continua en [a, b] y sea un conjunto finito de puntos {x0, x1, x2,...xn} tales que a= x0<x1<x2...<xn = b.
@@ -23,8 +24,9 @@ Si yi = xi, entonces se denomina S como la suma de Riemann por la derecha.
 Si yi = xi + xi-1 /2 entonces se denomina S como la suma de Riemman por el centro.
 
 
-# Solución e implementación en R:
+## Solución e implementación en R:
 
+```r
 #Sumas de Riemann para la distribución normal estandarizada.
 #Sumas de Riemann por derecha, izquierda y centro, para calcular el área bajo
 #la curva de la distribución normal estandar usando cuatro decimales.
@@ -90,22 +92,25 @@ graficarNormalEstandar <-function(){
   x=seq(-4,4,length=100)
   y=f(x)
   plot(x,y,type="l",lwd=1,col="red")
-  cat("x      |y    \n")
+  #cat("x      |y    \n")
   for( i in 1:length(x)){
     #cat(format(round(x[i], 4), nsmall = 4), " | ", format(round(f(x[i]),4), nsmall=4), "\n")
   }
 }
+```
 
 
 A continuación, las salidas con el intervalo [0, 1] usando cinco particiones:
 
 Con left (0, 1, 5), sumas de Riemann por la izquierda:
+
+
 | x(i-1)  | x(i)     | f(x(i-1))  | Área|
 | ------------ | ------------ | ------------ | ------------ |
 |0.0000  |  0.2500  |  0.3989  |  0.0997|
-|0.2500  |  0.5000  |  0.3867  |  0.0967| 
+|0.2500  |  0.5000  |  0.3867  |  0.0967|
 |0.5000  |  0.7500  |  0.3521  |  0.0880|
-|0.7500  |  1.0000  |  0.3011  |  0.0753| 
+|0.7500  |  1.0000  |  0.3011  |  0.0753|
 
 El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.3597 , con un error de:  0.0184
 
