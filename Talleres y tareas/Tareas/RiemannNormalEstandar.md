@@ -42,7 +42,7 @@ f<-function(x){
 right<-function(inicio, final, particiones){
   graficarNormalEstandar()
   sum=0
-  x=seq(inicio, final, length=particiones)
+  x=seq(inicio, final, length=particiones+1)
   cat("x(i-1)  | x(i)     | f(x(i))  | Área\n")
   for(i in 2:length(x)){
     s=f(x[i])*(x[i]-x[i-1])
@@ -58,7 +58,7 @@ right<-function(inicio, final, particiones){
 left<-function(inicio, final, particiones){
   graficarNormalEstandar()
   sum=0
-  x=seq(inicio, final,length=particiones)
+  x=seq(inicio, final,length=particiones+1)
   cat("x(i-1)  | x(i)     | f(x(i-1))  | Área\n")
   for(i in 2:length(x)){
     s=f(x[i-1])*(x[i]-x[i-1])
@@ -74,7 +74,7 @@ left<-function(inicio, final, particiones){
 midpoint<-function(inicio, final, particiones){
   graficarNormalEstandar()
   sum=0
-  x=seq(inicio, final,length=particiones)
+  x=seq(inicio, final,length=particiones+1)
   cat("x(i-1)  | x(i)     | f((x(i)+x(i-1))/2)  | Área\n")
   for(i in 2:length(x)){
     s=f((x[i]+x[i-1])/2)*(x[i]-x[i-1])
