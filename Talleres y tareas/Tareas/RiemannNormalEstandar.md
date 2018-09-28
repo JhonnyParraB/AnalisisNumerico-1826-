@@ -27,7 +27,7 @@ Si yi = xi + xi-1 /2 entonces se denomina S como la suma de Riemman por el centr
 ## Solución e implementación en R:
 
 ```r
-#Sumas de Riemann para la distribución normal estandarizada.
+#Sumas de Riemann para la distribución normal estandar.
 #Sumas de Riemann por derecha, izquierda y centro, para calcular el área bajo
 #la curva de la distribución normal estandar usando cuatro decimales.
 #Elaborado por Laura Donado y Jhonny Parra
