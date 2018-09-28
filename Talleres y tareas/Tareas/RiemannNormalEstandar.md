@@ -102,7 +102,7 @@ graficarNormalEstandar <-function(){
 ```
 
 
-A continuación, las salidas obtenidas con el intervalo [0, 1] usando cinco particiones:
+A continuación, las salidas obtenidas con el intervalo [0, 1] usando cuatro particiones:
 
 #### Con left (0, 1, 4), sumas de Riemann por la izquierda:
 
