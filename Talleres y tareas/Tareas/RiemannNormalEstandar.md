@@ -23,7 +23,7 @@ Si yi = xi-1 para todo i, entonces se denomina S como la suma de Riemann por la 
 
 Si yi = xi, entonces se denomina S como la suma de Riemann por la derecha.
 
-Si yi = xi + xi-1 /2 entonces se denomina S como la suma de Riemman por el centro.
+Si yi = (xi + xi-1)/2 entonces se denomina S como la suma de Riemman por el centro.
 
 
 ## Solución e implementación en R:
