@@ -20,7 +20,9 @@ Entonces la suma de Riemann de f(x) es:
 donde xi-1 ≤ yi ≤ xi. La elección de yi en este intervalo suele ser arbitraria.
 
 Si yi = xi-1 para todo i, entonces se denomina S como la suma de Riemann por la izquierda. 
+
 Si yi = xi, entonces se denomina S como la suma de Riemann por la derecha.
+
 Si yi = xi + xi-1 /2 entonces se denomina S como la suma de Riemman por el centro.
 
 
