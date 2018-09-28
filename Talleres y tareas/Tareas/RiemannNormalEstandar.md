@@ -104,7 +104,7 @@ graficarNormalEstandar <-function(){
 
 A continuación, las salidas obtenidas con el intervalo [0, 1] usando cinco particiones:
 
-#### Con left (0, 1, 5), sumas de Riemann por la izquierda:
+#### Con left (0, 1, 4), sumas de Riemann por la izquierda:
 
 
 | x(i-1)  | x(i)     | f(x(i-1))  | Área|
@@ -114,7 +114,7 @@ A continuación, las salidas obtenidas con el intervalo [0, 1] usando cinco part
 |0.5000  |  0.7500  |  0.3521  |  0.0880|
 |0.7500  |  1.0000  |  0.3011  |  0.0753|
 
-El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.3597 , con un error de:  0.0184
+El área bajo la curva en el intervalo [ 0 ,  1 ] con  4  particiones es:  0.3597 , con un error de:  0.0184
 
 ![left](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/left.png)
 
@@ -127,7 +127,7 @@ El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.359
 |0.5000  |  0.7500  |  0.3011  |  0.0753|
 |0.7500  |  1.0000  |  0.2420  |  0.0605| 
 
-El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.3205 , con un error de:  0.0209
+El área bajo la curva en el intervalo [ 0 ,  1 ] con  4  particiones es:  0.3205 , con un error de:  0.0209
 
 ![right](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/right.png)
 
@@ -140,6 +140,6 @@ El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.320
 |0.5000  |  0.7500  |  0.3282             | 0.0820 |
 |0.7500  |  1.0000  |  0.2721             | 0.0680 |
 
-El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.3420 , con un error de:  6e-04
+El área bajo la curva en el intervalo [ 0 ,  1 ] con  4  particiones es:  0.3420 , con un error de:  6e-04
 
 ![midpoint](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/midpoint.png)
