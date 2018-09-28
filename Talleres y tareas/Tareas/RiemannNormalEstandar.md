@@ -1,4 +1,4 @@
-# Tarea de métodos númericos para integración: Sumas de Riemann en la distribución normal estándar
+# Tarea de métodos númericos para integración: Sumas de Riemann para calcular acumulaciones de la distribución normal estándar
 ## Elaborado por: Laura Donado y Jhonny Parra
 
 
@@ -100,7 +100,7 @@ graficarNormalEstandar <-function(){
 ```
 
 
-A continuación, las salidas con el intervalo [0, 1] usando cinco particiones:
+A continuación, las salidas obtenidas con el intervalo [0, 1] usando cinco particiones:
 
 Con left (0, 1, 5), sumas de Riemann por la izquierda:
 
@@ -114,6 +114,8 @@ Con left (0, 1, 5), sumas de Riemann por la izquierda:
 
 El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.3597 , con un error de:  0.0184
 
+![left](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/left.png)
+
 Con right (0, 1, 5), sumas de Riemann por la derecha:
 
 |x(i-1)  | x(i)     | f(x(i))  | Área|
@@ -125,6 +127,7 @@ Con right (0, 1, 5), sumas de Riemann por la derecha:
 
 El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.3205 , con un error de:  0.0209
 
+![right](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/right.png)
 
 Con midpoint (0, 1, 5), sumas de Riemann por el centro:
 
@@ -136,3 +139,5 @@ Con midpoint (0, 1, 5), sumas de Riemann por el centro:
 |0.7500  |  1.0000  |  0.2721             | 0.0680 |
 
 El área bajo la curva en el intervalo [ 0 ,  1 ] con  5  particiones es:  0.3420 , con un error de:  6e-04
+
+![midpoint](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/midpoint.png)
