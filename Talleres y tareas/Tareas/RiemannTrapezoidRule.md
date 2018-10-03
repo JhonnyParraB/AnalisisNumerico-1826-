@@ -14,6 +14,8 @@ Sea f(x) y g(x) funciones continuas en [a, b], y sea un conjunto finito de punto
 consideramos la partición de este intervalo P=  {[x0, x1), [x1, x2), ... [xn-1, xn]}.  
 Entonces la aproximación por medio de la regla de trapecios es:  
 ![ecuacion](https://latex.codecogs.com/gif.latex?\int_{a}^{b}&space;f(x)&space;\approx&space;\frac{\Delta&space;x}{2}(\sum_{k=1}^{N}&space;({f(x_{k-1})&plus;f(x_k)})))  
+Donde:  
+![ecuacion](https://latex.codecogs.com/gif.latex?\Delta&space;x=\frac{b-a}{n})  
 
 ## Solución e implementación en R:
 ### Área entre las dos curvas
