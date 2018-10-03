@@ -31,8 +31,8 @@ g<-function(x){
 }
 
 error<-function (valorAprox){
-  real=integrate (function (x) sin(x)-cos(x), 0, pi/4)
-  error = abs(real$value-valorAprox)
+  real=integrate (function (x) abs(sin(x)-cos(x)), 0, pi/4)
+  error = abs(2*real$value-valorAprox)
   return (error)
 }
 
@@ -89,7 +89,7 @@ A continuación, las salidas obtenidas con el intervalo [0, pi/2] usando diez pa
 |1.25663706  |  1.41371669  |  0.95105652  |  0.98768834  |  0.30901699  |  0.15643447  |  0.11571219 |
 |1.41371669  |  1.57079633  |  0.98768834  |  1.00000000  |  0.15643447  |  0.00000000  |  0.14382634  |  
 
-El área entre las dos curvas es  0.826723  con un error de:  1.240937  
+El área entre las dos curvas es  0.82672304  con un error de:  0.0017040859  
 ![trapezoid](https://github.com/donadol/analisis_numerico_1826/blob/master/Talleres%20y%20Tareas/Derivadas%20e%20Integrales/trapezoid1.png)  
 
 ### Área bajo las dos curvas
@@ -106,8 +106,8 @@ f<-function(x){
 }
 
 error<-function (valorAprox){
-  real=integrate (function (x) sin(x)-cos(x), 0, pi/4)
-  error = abs(real$value-valorAprox)
+  real=integrate (function (x) abs(sin(x)-cos(x)), 0, pi/4)
+  error = abs(2*real$value-valorAprox)
   return (error)
 }
 
@@ -168,5 +168,5 @@ trapezoid(0, pi/2, 4)
 |1.2566  |  1.4137  |  0.3090  |  0.1564  |  0.0366 |
 |1.4137  |  1.5708  |  0.1564  |  0.0000  |  0.0123 |
   
-El área bajo las dos curvas es  0.58458147  con un error de:  0.99879503
+El área es  0.58458147  con un error de:  0.24384566
 ![trapezoid](https://github.com/donadol/analisis_numerico_1826/blob/master/Talleres%20y%20Tareas/Derivadas%20e%20Integrales/trapezoid2.png)  
