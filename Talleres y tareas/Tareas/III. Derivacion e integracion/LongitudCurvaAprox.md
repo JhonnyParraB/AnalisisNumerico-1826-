@@ -52,7 +52,7 @@ longitudCurva<-function(f, inicio, final, num_segmentos){
     points(x1, y1 , pch = 20, col="red")
     points(x2, y2 , pch = 20, col="red")
     segments(x1, y1, x2, y2, col = "darkgreen", lty = par("lty"), lwd = par("lwd"))
-    cat("|", format(round(x[i-1],4),nsmall=8), " | ", format(round(x[i],8),nsmall=8), " | ", format(round(distanciaPuntos (x1, y1, x2, y2)),nsmall=8), "|", "\n")
+    cat("|", format(round(x[i-1],4),nsmall=8), " | ", format(round(x[i],8),nsmall=8), " | ", format(round(distanciaPuntos (x1, y1, x2, y2), 8),nsmall=8), "|", "\n")
   }
   cat("La longitud de la curva en el intervalo [", inicio, ", ", final, "] con ", num_segmentos, " segmentos es: ", format(round(sum,8), nsmall=8), ", con un error de: ", format(round(errorLongitudCurva (f, sum, inicio, final),8), nsmall=8))
 }
