@@ -1,4 +1,4 @@
-# Tarea de métodos númericos para integración: Aproximación longitud de una curva
+# Tarea de métodos númericos para integración: Aproximación de la longitud de una curva
 ## Elaborado por: Laura Donado y Jhonny Parra
 
 
