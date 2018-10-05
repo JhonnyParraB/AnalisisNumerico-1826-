@@ -7,7 +7,7 @@ Encontrar una aproximación de la longitud de una curva de una función f(x) en 
 
 ## Aproximación propuesta:
 
-Se tomó la distancia de segmentos formados entre pares de puntos en el intervalo. Recordando, la formula de la distancia es:
+Se acumuló la longitud de segmentos formados entre pares de puntos en el intervalo dado. Los "x" tenian el mismo paso y los "y" se calculaban evaluando la función. Recordando, la formula de la distancia es:
 
 ![formulaDistancia](http://www.matematicatuya.com/GRAFICAecuaciones/ImS1a1.png)
 
@@ -79,5 +79,9 @@ Con f(x)=x² en el intervalo [-4, 4] usando 5 segmentos, la salida es la siguien
 | 2.40000000  |  4.00000000  |  10.00000000 | 
 
 "La longitud de la curva en el intervalo [ -4 ,  4 ] con  5  segmentos es:  33.05684742 , con un error de:  0.58041971"
+
+
+Gráfica:
+![grafica](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/longitudcurva.png?raw=true)
 
 
