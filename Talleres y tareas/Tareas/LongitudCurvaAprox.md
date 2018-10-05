@@ -82,6 +82,7 @@ Con f(x)=x² en el intervalo [-4, 4] usando 5 segmentos, la salida es la siguien
 
 
 Gráfica:
+
 ![grafica](https://github.com/JhonnyParraB/AnalisisNumerico-1826-/blob/master/Talleres%20y%20tareas/Tareas/Imagenes%20tareas/longitudcurva.png?raw=true)
 
 
