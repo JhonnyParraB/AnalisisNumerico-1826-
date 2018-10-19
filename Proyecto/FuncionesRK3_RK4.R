@@ -1,3 +1,5 @@
+#Elaborado por: Laura Donado y Jhonny Parra
+#2018
 #Preguntas:
 # Limitar h por el número de particiones o por el tamaño del salto
 # Cómo calcular el error: cómo encontrar la solución de forma analitica
