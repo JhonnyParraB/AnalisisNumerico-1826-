@@ -38,7 +38,7 @@ graficarSolucionNumerica<-function (x, y){
   }
 }
 
-rk4<-function(dy, ti, tf, y0, h, graficar=TRUE, numpendientes=10){
+rungekutta4<-function(dy, ti, tf, y0, h, graficar=TRUE, numpendientes=10){
   t<-seq(ti, tf, h)
   y<-c(y0)
   cat("x    |y         |k1        |k2        |k3        |k4       |error absoluto\n")
@@ -57,7 +57,7 @@ rk4<-function(dy, ti, tf, y0, h, graficar=TRUE, numpendientes=10){
   rta<-list(w=y, t=t)
 }
 
-rk3<-function(dy, ti, tf, y0, h, graficar=TRUE, numpendientes=10){
+rungekutta3<-function(dy, ti, tf, y0, h, graficar=TRUE, numpendientes=10){
   t<-seq(ti, tf, h)
   y<-c(y0)
   cat("x    |y         |k1         |k2        |k3       |error absoluto\n")
@@ -75,6 +75,6 @@ rk3<-function(dy, ti, tf, y0, h, graficar=TRUE, numpendientes=10){
   rta<-list(w=y, t=t)
 }
 
-r<-rk4(expression(x+y), 0, 2, 1, 0.1)
+r<-rungekutta4(expression(x+y), 0, 2, 1, 0.1)
 
-r2<-rk3(expression(x+y), 0, 2, 1, 0.1)
+r2<-rungekutta3(expression(x+y), 0, 2, 1, 0.1)
