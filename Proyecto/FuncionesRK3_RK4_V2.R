@@ -5,7 +5,12 @@ list.of.packages <- c("pracma")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 
+list.of.packages <- c("deSolve")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
 library(pracma)
+library(deSolve)
 
 
 solucionODE<-function(dy, t, h, y0){
