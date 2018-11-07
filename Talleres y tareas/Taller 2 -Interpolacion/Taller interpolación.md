@@ -66,8 +66,6 @@ cat("Usando Lagrange: ",lagrange(x,y,55))
 error = 120 - lagrange(x,y,55)
 cat ("Error: ", error)
 
-```
-
 
 funcion<-function(x) 3343-239.3667*x+6.183333*x**2-0.06733333*x**3+0.0002666667*x**4
 
@@ -84,4 +82,5 @@ cat(num)
 valor = 120 - num
 cat("Valor: Error:",round(error,7))
 
+```
 
